@@ -4,6 +4,6 @@ from wtforms.validators import NumberRange
 
 
 class SizeForm(FlaskForm):
-    width = IntegerField('Ширина мира', validators=[NumberRange(min=10, max=30)])
-    height = IntegerField('Высота мира', validators=[NumberRange(min=10, max=30)])
+    width = IntegerField('Ширина мира', default=20, validators=[NumberRange(min=10, max=50)])
+    height = IntegerField('Высота мира', default=20, validators=[NumberRange(min=10, max=50)])
     submit = SubmitField('принять')

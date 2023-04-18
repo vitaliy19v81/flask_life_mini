@@ -29,6 +29,12 @@ class GameOfLife(metaclass=SingletonMeta):
         self.counter = counter
         self.old_world = self.world
 
+    def get_width(self):
+        return self.__width
+
+    def get_height(self):
+        return self.__height
+
     def form_new_generation(self):
         """Генерация следующего поколения на основе предыдущего"""
         universe = self.world

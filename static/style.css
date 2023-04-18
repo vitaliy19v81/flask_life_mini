@@ -1,4 +1,5 @@
 .world {
+    display: none;
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -26,6 +27,8 @@ td {
     justify-content: center;
     align-items: center;
 }
+
+
 
 a, table {
     position: absolute;
