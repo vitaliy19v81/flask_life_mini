@@ -1,4 +1,4 @@
-Для скачивания проекта с GitHub создайте к себя на компьютере
+Для скачивания проекта с GitHub создайте у себя на компьютере
 папку и находясь в ней запустите терминал.
 В терминале выполните комманду:
 git clone https://github.com/vitaliy19v81/flask_life_mini
@@ -8,7 +8,7 @@ git clone https://github.com/vitaliy19v81/flask_life_mini
 
 python3 -m venv venv
 
-активация виртуального окружения:
+Активация виртуального окружения:
 
 source venv/bin/activate
 
@@ -21,7 +21,7 @@ pip install -r /path/to/requirements.txt
 
 export FLASK_APP=main.py
 
-а затем:
+А затем:
 
 flask run
 
